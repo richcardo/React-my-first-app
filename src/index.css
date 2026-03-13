@@ -1,0 +1,10 @@
+.title {
+  color: brown;
+}
+
+.input {
+  width: 500px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
