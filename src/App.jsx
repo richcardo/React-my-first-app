@@ -2,6 +2,8 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
 import List from "./Components/List";
+import Counter from "./Components/Counter";
+import Form from "./Components/Form";
 
 function App() {
   const list = ["React", "Vue", "Angular"];
@@ -10,9 +12,8 @@ function App() {
       <Navbar />
       <Header title="Welcome to React" />
       <List list={list} />
-      <h1 className="title">Welcome to React</h1>
-      <label htmlFor="search">search</label>
-      <input id="search" type="text" className="input" />
+      <Counter />
+      <Form />
     </>
   );
 }
