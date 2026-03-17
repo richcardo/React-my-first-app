@@ -1,9 +1,7 @@
-export default function List({list}) {
+export default function List({children}) {
   return (
     <ul>
-      {list.map((item) => {
-        return <li key={item}>{item}</li>;
-      })}
+     
     </ul>
   )
 }
