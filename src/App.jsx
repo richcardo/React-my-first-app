@@ -5,6 +5,7 @@ import List from "./Components/List";
 import Counter from "./Components/Counter";
 import Form from "./Components/Form";
 import { useState } from "react";
+import LoadingData from "./Components/LoadingData";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -45,6 +46,7 @@ function App() {
           </div>
         )}
       </Form>
+      <LoadingData />
     </>
   );
 }
